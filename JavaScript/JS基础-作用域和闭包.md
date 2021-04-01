@@ -100,7 +100,7 @@ function createCache() {
             data[key] = val
         },
         get(key) {
-			retrn data[key]
+			return data[key]
         }
     }
 }
